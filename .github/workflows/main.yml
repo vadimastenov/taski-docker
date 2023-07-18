@@ -69,7 +69,7 @@ jobs:
         # При помощи with передаём в action параметры username и password
         with:
           username: ${{ secrets.TASKIDOCKER }}
-          password: ${{ secrets.TASKIDOCKERg }}
+          password: ${{ secrets.TASKIDOCKER }}
           # Хорошо ли держать логин и пароль прямо в коде workflow?
           # Нет, это нехорошо
       - name: Push to DockerHub
