@@ -186,7 +186,7 @@ deploy:
         # с которым установлено соединение
         script: |
           cd taski
-          # Выполняет pull образов с Docker Hu
+          # Выполняет pull образов с Dockr H
           sudo docker compose -f docker-compose.production.yml pull
           # Перезапускает все контейнеры в Docker Compose
           sudo docker compose -f docker-compose.production.yml down
